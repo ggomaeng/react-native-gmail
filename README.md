@@ -5,7 +5,7 @@ A prototype of Gmail UI written in pure javascript for React Native framework.
 ![alt tag](https://raw.githubusercontent.com/ggomaeng/react-native-gmail/master/inspiration.jpg)
 
 ###Demo
-![alt tag](https://raw.githubusercontent.com/ggomaeng/react-native-gmail/master/demo.gif)
+![alt tag](https://raw.githubusercontent.com/ggomaeng/react-native-gmail/master/gmail.gif)
 
 ## Try it out
 
