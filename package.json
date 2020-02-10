@@ -1,15 +1,27 @@
 {
   "name": "react-native-gmail",
-  "version": "0.0.0",
-  "description": "Hello Exponent!",
-  "author": null,
-  "private": true,
-  "main": "main.js",
+  "version": "1.0.0",
+  "description": "A prototype of Gmail UI written in pure javascript for React Native framework",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
   "dependencies": {
-    "@exponent/vector-icons": "~2.0.3",
-    "exponent": "~11.0.2",
-    "react": "~15.4.1",
-    "react-native": "git+https://github.com/exponentjs/react-native#sdk-11.0.3",
-    "react-native-action-button": "^2.0.15"
-  }
+    "@expo/vector-icons": "^10.0.6",
+    "expo": "~36.0.0",
+    "react": "~16.9.0",
+    "react-dom": "~16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz",
+    "react-native-action-button": "^2.8.5",
+    "react-native-web": "~0.11.7"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "~8.0.0",
+    "@babel/core": "^7.0.0"
+  },
+  "private": true
 }
